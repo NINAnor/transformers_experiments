@@ -2,7 +2,7 @@
 
 ## Aim of this repository
 
-This repository is experimental and contain code and bits of information for understanding, building and running transformer networks, with a focus on acoustic data.
+This repository is to provide a detailed and simple explanation of the transformer architecture. The repository also contains experiments and bits of code for building and training transformer networks.
 
 ## Resources to understand transformers
 

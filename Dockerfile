@@ -18,5 +18,7 @@ RUN poetry config virtualenvs.create false
 RUN poetry lock --no-update && \
     poetry install --no-root
 
+RUN python -m spacy download en_core_web_sm
+
 # Make a folder for my scripts
 COPY ./ /app/

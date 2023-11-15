@@ -4,6 +4,14 @@
 
 This repository is to provide a detailed and simple explanation of the transformer architecture. The repository also contains experiments and bits of code for building and training transformer networks.
 
+At the moment the repo contain explanations on vanilla transformers but will include explanations on spin-off transformers such as Vision Transformers.
+
+## Explanations on embeddings and positional encodings
+
+- A [Jupyter notebook](/vanilla_transformers/1-embeddings/embdeddings.ipynb) displaying the workflow for obtaining embeddings from sentences. This includes tokenization of the sentence + getting the positional encodings
+
+- The [README](/vanilla_transformers/1-embeddings/README.md) detailing the theory behind the terms embeddings, tokenization and positional encodings
+
 ## Resources to understand transformers
 
 **Seminal papers:**
@@ -26,3 +34,7 @@ This repository is to provide a detailed and simple explanation of the transform
 
 - [TransformerFromScratch Tutorial Series](https://github.com/Animadversio/TransformerFromScratch)
 - [StatQuest on Transformers](https://www.youtube.com/watch?v=zxQyTK8quyY)
+
+**Other cool resources on transformers:**
+
+- [A very simple visual explanations on how LLMs work](https://www.theguardian.com/technology/ng-interactive/2023/nov/01/how-ai-chatbots-like-chatgpt-or-bard-work-visual-explainer)
